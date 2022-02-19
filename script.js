@@ -1,14 +1,14 @@
-function hasNetwork(online){
+function hasNetwork(online) {
   const element = document.querySelector(".status");
 
-  if(online){
+  if (online) {
     element.classList.remove("offline")
     element.classList.add("online");
-    element.innerText="Online";
-  }else{
+    element.innerText = "Online";
+  } else {
     element.classList.remove("oline")
     element.classList.add("offline");
-    element.innerText="Offline";
+    element.innerText = "Offline";
   }
 }
 
