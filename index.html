@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Status app</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  </head>
+  <style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('walls.jpeg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.w3-jumbo{
+  color: #00B7C2;
+}
+.w3-jumbo.online{
+  color: #06FF00;
+}
+.w3-jumbo.offline{
+  color: #FF1700;
+}
+</style>
+  <body>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo status">Connecting....</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+</div>
+      <script src="script.js"></script>
+  </body>
+</html>
