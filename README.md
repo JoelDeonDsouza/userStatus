@@ -5,5 +5,5 @@
 
 | Description |
 :------------------------- |
-**Required**. W3school styled page is already merged into the application |
+ W3school styled page is already merged into the application. |
 
