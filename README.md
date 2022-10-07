@@ -10,3 +10,7 @@ Helps user find if they are online || offline.
 :------------------------- |
  W3school styled page is already merged into the application |
 
+## Features
+
+- Landing Page.
+- Helps user find if they are online || offline.
